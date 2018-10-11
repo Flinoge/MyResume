@@ -1,3 +1,3 @@
-# Quasar App
+# Trevor Orgill's Resume
 
-> WIP
+> Ask questions if you have any!
