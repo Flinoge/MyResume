@@ -9,25 +9,50 @@
             @click="leftSide = !leftSide"
             icon="menu"
           />
+          <span class="gt-md">Freelance/Full Time Programmer</span>
         </q-toolbar-title>
         <q-tabs align="right" inverted>
           <q-route-tab
-            icon="alarm"
+            icon="developer_mode"
             label="Code Examples"
+            class="gt-md"
             to="/"
             exact
             slot="title"
           />
           <q-route-tab
-            icon="mail"
+            icon="assignment"
             label="Resume"
+            class="gt-md"
             to="/resume"
             exact
             slot="title"
           />
           <q-route-tab
-            icon="alarm"
+            icon="build"
             label="My Projects"
+            class="gt-md"
+            to="/projects"
+            exact
+            slot="title"
+          />
+          <q-route-tab
+            icon="developer_mode"
+            class="lt-lg"
+            to="/"
+            exact
+            slot="title"
+          />
+          <q-route-tab
+            icon="assignment"
+            class="lt-lg"
+            to="/resume"
+            exact
+            slot="title"
+          />
+          <q-route-tab
+            icon="build"
+            class="lt-lg"
             to="/projects"
             exact
             slot="title"
